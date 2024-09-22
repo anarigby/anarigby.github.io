@@ -1,0 +1,201 @@
+body {
+	background-color:#f4e1d9;
+  color: white;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+header {
+   background-color: #EDC7B7; 
+   background-image: url("images/commingsoon.png");
+   background-repeat:no-repeat;
+   background-size: 100% 100%; 
+   color: #AC3B61;
+   height: 400px;
+   padding: 10px;
+   text-align: center;
+}
+
+header a{
+  color:#AC3B61;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .logo a{
+  background-image: url("images/edidlogo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  position: relative;
+  text-indent:-999999px;
+  top: -40px;
+  width: 110px;
+}
+
+article {
+  background-color: #EDC7B7;
+  font-style: italic;
+  padding: 10px;
+  width: 800px;
+  display: block;
+}
+article img {
+  width: 100%;
+}
+aside {
+  width:15%;
+  padding: 15px;
+  margin-left: 25px;
+  float: right;
+  font-style: italic;
+  background-color: #AC3B61;
+  border: 5px solid #123C69;
+}
+
+section {
+  background-color:#f4e1d9;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+ul { 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+li { 
+ display: inline-block;
+ font-weight: bold;
+}
+
+li a{
+  color: #123C69;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+li:hover{
+  background-color: #AC3B61;
+  border-radius:3px;
+}
+a{
+  text-decoration: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  font-family: Georgia, sans-serf;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #123C69;
+}
+
+td, th {
+  border: 3px solid #123C69;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #EDC7B7;
+}
+
+.features {
+  background: #123C69;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.features div{
+  width: 100px; 
+  margin: 1 px;
+}
+
+.features figure {
+  margin: auto;
+  text-align: center;
+  width: 400px;
+}
+
+.features figure img {
+  border-radius: 50px;
+  width: 400px;
+}
+
+
+.information div {
+  background: #BAB2B5;
+  border: 5px solid #123C69;
+  text-align: center;
+  display: inline-block;
+  width: 400px;
+  margin-right: 25px;
+}
+
+.feature-box.general div {
+  background:#BAB2B5 ;
+}
+
+.mycontainer{
+  color:white;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.mycontainer div {
+  width: 50%;
+  margin: 1px;
+  border: 5px solid #123C69;
+}
+
+.mycontainer div p {
+  font-weight: bold;
+}
+
+.skills {
+  border: 5px solid #123C69;
+  background-color: #AC3B61;
+  color:white;
+  display: inline-block;
+  padding: 10px;
+}
+
+.skills div {
+  width: 300px;
+  margin-left: 25px;
+}
+
+h1 {
+color: #123C69;
+font-size: 50px;
+text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  }
+
+footer { 
+   background-color:#EDC7B7;
+   padding: 10px 20px;
+   text-align: center;
+   color: white;
+}
